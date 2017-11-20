@@ -1,4 +1,7 @@
-/* custom css */
+body {
+  background-color: #2d2d2d;
+  color: #ffffff;
+}
 
 .site-content {
   padding-top: 75px;
