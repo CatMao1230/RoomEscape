@@ -16,6 +16,7 @@
   ],
   "dependencies": {
     "jquery": "^3.2.1",
-    "semantic": "semantic-ui#^2.2.13"
+    "semantic": "semantic-ui#^2.2.13",
+    "jquery.countdown": "^2.2.0"
   }
 }

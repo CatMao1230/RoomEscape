@@ -12,6 +12,13 @@
     <link href="{{url_for('static', filename='bower_components/semantic/dist/semantic.min.css')}}" rel="stylesheet">
     <link href="{{url_for('static', filename='main.css')}}" rel="stylesheet" media="screen">
     {% block css %}{% endblock %}
+    
+    <!-- scripts -->
+    <script src="{{url_for('static', filename='bower_components/jquery/dist/jquery.min.js')}}" type="text/javascript"></script>
+    <script src="{{url_for('static', filename='bower_components/semantic/dist/semantic.min.js')}}" type="text/javascript"></script>
+    <script src="{{url_for('static', filename='main.js')}}" type="text/javascript"></script>
+
+    {% block js %}{% endblock %}
   </head>
 
   <body>
@@ -30,13 +37,6 @@
     <br><br>
 
     {% include 'footer.html' %}
-
-    <!-- scripts -->
-    <script src="{{url_for('static', filename='bower_components/jquery/dist/jquery.min.js')}}" type="text/javascript"></script>
-    <script src="{{url_for('static', filename='bower_components/semantic/dist/semantic.min.js')}}" type="text/javascript"></script>
-    <script src="{{url_for('static', filename='main.js')}}" type="text/javascript"></script>
-
-    {% block js %}{% endblock %}
 
   </body>
 </html>
