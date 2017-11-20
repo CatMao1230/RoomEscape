@@ -1,12 +1,14 @@
 let countDownHtml = (number, text) => {
     return `
     <div class='two wide column row'>
-      <h1 class='ui inverted header'>
-        ${number}
-        <div class='sub header'>
-          ${text}
-        </div>
-      </h1>
+      <span class='halo'>
+        <h1 class='ui inverted header'>
+          ${number}
+          <div class='sub header'>
+            ${text}
+          </div>
+        </h1>
+      </span>
     </div>
     `
 }
