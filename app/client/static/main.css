@@ -6,3 +6,11 @@ body {
 .site-content {
   padding-top: 75px;
 }
+
+.count-down-number {
+  font-size: 6em;
+}
+.count-down-text {
+  font-size: 1em;
+  text-align: center;
+}
